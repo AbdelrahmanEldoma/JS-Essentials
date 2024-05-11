@@ -19,3 +19,9 @@ function addBook() {
         alert('Please fill in all fields correctly.');
     }
 }
+
+function clearInputs() {
+    document.getElementById('bookName').value = '';
+    document.getElementById('authorName').value = '';
+    document.getElementById('bookDescription').value = '';
+    document.getElementById('pagesNumber').value = '';}
