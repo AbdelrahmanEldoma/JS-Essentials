@@ -1,4 +1,4 @@
-<script>
+
 function performOperation() {
 // Get user input from input fields
 let num1 = parseInt(document.getElementById('input1').value);
@@ -28,4 +28,4 @@ if (!isNaN(num1) && !isNaN(num2)) {
             const resultElement = document.getElementById('result');
             resultElement.textContent = `The result is: ${result}`;
         }
-    </script>
+   
