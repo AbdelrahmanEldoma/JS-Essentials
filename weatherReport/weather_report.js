@@ -5,7 +5,7 @@ function showweatherDetails(event) {
 
 const element = document.getElementById("MyBtn");
 element.addEventListener("click", function() {
-    
+
     var city = document.getElementById('city').value;
     const apiKey = '497084506c57581db88ebafdc72be507';
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=497084506c57581db88ebafdc72be507`;
@@ -24,5 +24,6 @@ element.addEventListener("click", function() {
     const weatherInfo = document.getElementById('weatherInfo');
     weatherInfo.innerHTML = `<p>Failed to fetch weather. Please try again.</p>`;
   });
+  
   document.getElementById('weatherForm').addEventListener('submit',showweatherDetails );
   });
