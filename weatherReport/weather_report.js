@@ -2,7 +2,7 @@ function showweatherDetails(event) {
     event.preventDefault();
 }
 
-const element = document.getElementById("btn");
+const element = document.getElementById("MyBtn");
 element.addEventListener("click", function() {
     var city = document.getElementById('city').value;
     const apiKey = '497084506c57581db88ebafdc72be507';
