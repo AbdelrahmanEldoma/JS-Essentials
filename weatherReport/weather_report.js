@@ -24,6 +24,7 @@ element.addEventListener("click", function() {
     const weatherInfo = document.getElementById('weatherInfo');
     weatherInfo.innerHTML = `<p>Failed to fetch weather. Please try again.</p>`;
   });
-  
+
   document.getElementById('weatherForm').addEventListener('submit',showweatherDetails );
+  
   });
